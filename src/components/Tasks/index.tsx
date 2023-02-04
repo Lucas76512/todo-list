@@ -1,11 +1,10 @@
 import React from "react";
-import './Tasks.css'
+import "./tasks.css";
 
 export function Tasks() {
-    return(
-     <div className="done">
-    <h1 className="task">Tarefas criadas</h1>
-    <p className="completed">concluidas</p>
+  return (
+    <div className="done">
+      {/* <h1 className="task">Tarefas criadas</h1> */}
     </div>
-    )
+  );
 }
