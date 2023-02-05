@@ -1,10 +1,7 @@
-import React, { ButtonHTMLAttributes, HtmlHTMLAttributes } from "react";
+import React from "react";
 import "./Button.css";
-import plus from "../../assets/plus.svg";
-
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  label: string;
-}
+import plus from "../../assets/icons/plus.svg";
+import { ButtonProps } from "./types";
 
 export function Button(props: ButtonProps) {
   const { label, ...rest } = props;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import todoLogo from "../../assets/todo-logo.svg";
+import todoLogo from "../../assets/images/todo-logo.svg";
 import { Input } from "../Input";
 import { Button } from "../Button";
 
