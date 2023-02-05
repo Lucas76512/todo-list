@@ -1,8 +1,8 @@
-import "./Global.css";
-import { Header } from "./components/Header";
 
-import { TaskBadge } from "./components/TaskBadge";
-import { TaskWrapper } from "./components/TaskWrapper";
+import'./Global.css'
+import { Header } from './components/Header'
+import { Post } from "./Post"
+import { Button } from '../src/components/Button/index'
 
 export function App() {
   return (
@@ -14,4 +14,6 @@ export function App() {
       </div>
     </div>
   );
+  )
+
 }
