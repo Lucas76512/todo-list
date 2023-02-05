@@ -1,0 +1,23 @@
+.task-badge-wrapper {
+  display: flex;
+  align-items: center;
+  background: var(--gray-500);
+  width: 736px;
+  height: 72px;
+  border-radius: 8px;
+  justify-content: space-around;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.task-badge-wrapper p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--gray-100);
+}
+
+.task-badge-wrapper button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
